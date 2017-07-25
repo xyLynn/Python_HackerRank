@@ -1,0 +1,1 @@
+Solutions to Python Challenges from HackerRank: Part 1 - Introduction
