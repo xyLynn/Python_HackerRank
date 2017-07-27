@@ -9,8 +9,7 @@ sort: Sort the list.
 pop: Pop the last element from the list.
 reverse: Reverse the list.
 
-Initialize your list and read in the value of n followed by n lines of
-commands where each command will be of the 7 types listed above. Iterate through
+Initialize your list and read in the value of n followed by n lines of commands where each command will be of the 7 types listed above. Iterate through
 each command in order and perform the corresponding operation on your list.
 
 Input Format
