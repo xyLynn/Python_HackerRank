@@ -14,7 +14,7 @@ commands where each command will be of the 7 types listed above. Iterate through
 each command in order and perform the corresponding operation on your list.
 
 Input Format
-	The first line contains an integer, n, denoting the number of commands. 
+	The first line contains an integer, n, denoting the number of commands.
 	Each line i of the n subsequent lines contains one of the commands described above.
 
 Constraints
@@ -28,21 +28,18 @@ if __name__ == '__main__':
     l = []
     for i in range(1, N+1):
         linput = input()
-        s = linput.split() 	    	
-        if s[0] == 'insert':
-            	l.insert(int(s[1]), int(s[2]))
+        s = linput.split()
+    	if s[0] == 'insert':
+            l.insert(int(s[1]), int(s[2]))
         elif s[0] == 'print':
-            	print(l)
+            print(l)
         elif s[0] == 'remove':
-        		l.remove(int(s[1]))
+        	l.remove(int(s[1]))
         elif s[0] == 'append':
-        		l.append(int(s[1]))
+        	l.append(int(s[1]))
         elif s[0] == 'sort':
-        		l.sort()
+        	l.sort()
         elif s[0] == 'pop':
-        		l.pop()
+        	l.pop()
         elif s[0] == 'reverse':
-        		l.reverse()
-
-
-
+        	l.reverse()
